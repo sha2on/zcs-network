@@ -1,10 +1,10 @@
-#################################################################
-# Dockerfile to build Zimbra Collaboration 8.6 container images
-# Based on Ubuntu 14.04
-# Created by Jorge de la Cruz
-#################################################################
+##########################################################################
+# Dockerfile to build Zimbra Collaboration 8.7.3 GA container images
+# Based on Ubuntu 16.04.2 LTS
+# Modified by sha2on, based from @jorgedlcruz for ubuntu14.04
+##########################################################################
 FROM ubuntu:14.04
-MAINTAINER Jorge de la Cruz <jorgedlcruz@gmail.com>
+MAINTAINER sha2on <howdyaron@gmail.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install \
   wget \
