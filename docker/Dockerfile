@@ -3,7 +3,7 @@
 # Based on Ubuntu 16.04.2 LTS
 # Modified by sha2on, based from @jorgedlcruz for ubuntu14.04
 ##########################################################################
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER sha2on <howdyaron@gmail.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install \
